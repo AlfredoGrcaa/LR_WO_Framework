@@ -1,14 +1,33 @@
 # LR_WO_Framework
 
-### En LR.ipynb;
-- Se encuentra el entrenamiento y la evaluación del desempeño del modelo
+## En final están los archivos finales del portafolio
+ 
+## En final/machine_learning/with_framework se encuentran...
+
+### En LR_WITH_FWORK.ipynb SMA0401 
+- Se encuentra el entrenamiento y la evaluación del desempeño del modelo con uso de framework
 - Se ecnuentran las respuestas de la actividad
 
-### En reporte.pdf
+### En reporte.md SMA0401
 - Reporte de la actividad y resultados
 
 ### heart.csv - o2Saturation.csv
 - Son los archivos que se usaron para entrenar y evaluar el modelo
+
+## En final/machine_learning/without_framework se encuentran...
+
+### En LR_WOUT_FWORK.ipynb SMA0401 
+- Se encuentra el entrenamiento y la evaluación del desempeño del modelo sin uso de framework
+- Se ecnuentran las respuestas de la actividad
+
+### En reporte.md SMA0401
+- Reporte de la actividad y resultados
+
+## En retro se encuentran los archivos de retroalimentación del portafolio
+
+### En LR.ipynb SMA0401 
+- Se encuentra el entrenamiento y la evaluación del desempeño del modelo con uso de framework
+- Se ecnuentran las respuestas de la actividad
 
 **Regresión Logística: Resumen**
 
@@ -27,7 +46,7 @@ La regresión logística es un método estadístico utilizado principalmente par
    - \(b_0, b_1, b_2, \ldots, b_n\) son los coeficientes de la regresión que se ajustan durante el entrenamiento.
    - \(X_1, X_2, \ldots, X_n\) son los valores de las variables independientes.
 
-3. **Entrenamiento del modelo:** El objetivo es encontrar los mejores valores para los coeficientes \(b_0, b_1, b_2, \ldots, b_n\) que minimicen el error en las predicciones. Esto se hace mediante técnicas de optimización, como la maximización de la verosimilitud.
+3. **Entrenamiento del modelo:** El objetivo es encontrar los mejores valores para los coeficientes $\(b_0, b_1, b_2, \ldots, b_n\)$ que minimicen el error en las predicciones. Esto se hace mediante técnicas de optimización, como la maximización de la verosimilitud.
 
 4. **Umbral de decisión:** Para realizar una clasificación, debes definir un umbral de decisión, típicamente 0.5. Si la probabilidad predicha es mayor que el umbral, clasificas el resultado como 1; de lo contrario, lo clasificas como 0.
 
