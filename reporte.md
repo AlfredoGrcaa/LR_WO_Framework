@@ -1,15 +1,3 @@
-# LR_WO_Framework
-
-### En LR.ipynb;
-- Se encuentra el entrenamiento y la evaluación del desempeño del modelo
-- Se ecnuentran las respuestas de la actividad
-
-### En reporte.pdf
-- Reporte de la actividad y resultados
-
-### heart.csv - o2Saturation.csv
-- Son los archivos que se usaron para entrenar y evaluar el modelo
-
 **Regresión Logística: Resumen**
 
 La regresión logística es un método estadístico utilizado principalmente para problemas de clasificación binaria, es decir, cuando quieres predecir si un evento o resultado pertenece a una de dos categorías, como sí/no, 1/0, o positivo/negativo. Aunque el nombre contiene la palabra "regresión", en realidad se trata de un algoritmo de clasificación.
@@ -63,5 +51,23 @@ Este conjunto de datos se encuentra alojado en Kaggle y es utilizado para el an�
 **Variable Objetivo (Clase):**
 14. `output`: Variable binaria que indica la probabilidad de sufrir un ataque al corazón (0 = No tiene riesgo de ataque al corazón, 1 = Tiene riesgo de ataque al corazón).
 
+## Problema a resolver
 
-# Cambios implementados
+El tipo de problema a resolver utilizando el conjunto de datos "Heart Attack Analysis & Prediction Dataset" es un problema de **clasificación binaria**. En este tipo de problema, el objetivo es predecir una variable categórica que tiene dos clases posibles. En este caso, la variable objetivo es `output`, que indica si un paciente tiene riesgo de sufrir un ataque al corazón o no. Las dos clases en esta clasificación binaria son:
+
+1. **Clase Positiva (1):** Indica que el paciente tiene riesgo de sufrir un ataque al corazón.
+
+2. **Clase Negativa (0):** Indica que el paciente no tiene riesgo de sufrir un ataque al corazón.
+
+Por lo tanto, el objetivo es desarrollar un modelo predictivo que, en función de las características médicas y clínicas de un paciente (las otras columnas del conjunto de datos), pueda predecir con precisión si ese paciente tiene riesgo de sufrir un ataque al corazón o no.
+
+## Métricas de evaluación
+Dado que se trata de un problema de clasificación binaria, las métricas de evaluación comunes incluyen la precisión, la sensibilidad (recall), la especificidad, el área bajo la curva ROC (AUC-ROC) y otras medidas relacionadas con la evaluación del rendimiento del modelo.
+
+Este tipo de problema es crucial en el campo de la salud, ya que puede ayudar a identificar a las personas que corren un mayor riesgo de enfermedades cardíacas y, por lo tanto, permitir una intervención médica temprana y preventiva.
+
+## Predicciones
+
+## Evaluacion del modelo con base a las predicciones
+
+## Conclusiones
