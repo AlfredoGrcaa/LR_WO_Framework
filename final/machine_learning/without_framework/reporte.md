@@ -67,7 +67,26 @@ Dado que se trata de un problema de clasificación binaria, las métricas de eva
 Este tipo de problema es crucial en el campo de la salud, ya que puede ayudar a identificar a las personas que corren un mayor riesgo de enfermedades cardíacas y, por lo tanto, permitir una intervención médica temprana y preventiva.
 
 ## Predicciones
+![Matriz de confusione sin Framework]('cf_wo_fw.png')
 
 ## Evaluacion del modelo con base a las predicciones
+Podemos ver en la matriz de confusión que nuestro modelo tuvo un buen desempeño clasificando a las personas que tendrán un ataque al corazón, sería interesante seguir trabajando en el modelo para mejorar la precisión de la clasificación de las personas que no tendrán un ataque al corazón. Igualmente  en las metricas de desempeño que se muestran a continuación se puede ver que el modelo tuvo un buen desempeño:
+
+- Accuracy: 0.7869
+- True Positives: 26
+- True Negatives: 22
+- False Positives: 7
+- False Negatives: 6
+- Precision: 0.7879
+- Recall: 0.8125
+- F1-Score: 0.8000
+
+En general para mi destacan tanto el recall como el f1-score, ya que nos indican que el modelo tuvo un buen desempeño clasificando a las personas que tendrán un ataque al corazón que es lo que nos interesa predecir porque en este caso si bien no hay tanto problema al predecir que una persona no tendrá un ataque al corazón en comparación a alguien que lo va a tener, es por esto que en este caso en particula el recall es una de las metricas que más me interesan.
 
 ## Conclusiones
+
+En conclusión, la regresión logística es una valiosa herramienta para abordar problemas de clasificación binaria, como la predicción de ataques al corazón. A través de la transformación logística de variables independientes y el ajuste de coeficientes, este método permite evaluar el riesgo de enfermedades cardíacas basado en una variedad de características médicas y clínicas.
+
+El conjunto de datos "Heart Attack Analysis & Prediction Dataset" proporciona información detallada para abordar este desafío de clasificación binaria. Nuestro modelo logró un desempeño destacado, especialmente en la identificación de personas en riesgo de sufrir un ataque al corazón, lo que es crucial en el contexto de la salud cardiovascular. Las métricas de evaluación, incluyendo el recall y el f1-score, indican que el modelo es prometedor y podría mejorar aún más con refinamientos adicionales.
+
+En última instancia, esta aplicación de la regresión logística demuestra su utilidad en la identificación temprana de personas en riesgo de enfermedades cardíacas, lo que puede llevar a una atención médica preventiva y mejorada.
