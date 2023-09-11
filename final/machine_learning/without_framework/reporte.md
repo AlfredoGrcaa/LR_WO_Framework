@@ -67,7 +67,7 @@ Dado que se trata de un problema de clasificación binaria, las métricas de eva
 Este tipo de problema es crucial en el campo de la salud, ya que puede ayudar a identificar a las personas que corren un mayor riesgo de enfermedades cardíacas y, por lo tanto, permitir una intervención médica temprana y preventiva.
 
 ## Predicciones
-![Matriz de confusione sin Framework]('cf_wo_fw.png')
+![Matriz de confusión sin Framework]('cf_wo_fw.png')
 
 ## Evaluacion del modelo con base a las predicciones
 Podemos ver en la matriz de confusión que nuestro modelo tuvo un buen desempeño clasificando a las personas que tendrán un ataque al corazón, sería interesante seguir trabajando en el modelo para mejorar la precisión de la clasificación de las personas que no tendrán un ataque al corazón. Igualmente  en las metricas de desempeño que se muestran a continuación se puede ver que el modelo tuvo un buen desempeño:

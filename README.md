@@ -65,3 +65,12 @@ Este conjunto de datos se encuentra alojado en Kaggle y es utilizado para el an�
 
 
 # Cambios implementados
+
+- Hice el readme 
+- Separé los datos de entrenamiento y test
+- Hice el reporte
+- Describí el modelo de ML utilizado
+- Cambié el set de datos a uno de ataques al corazón
+- describí las metricas de desempeño usadas
+- Predicciones y evaluación con set de test
+- Descripción de problema a resolver y variables

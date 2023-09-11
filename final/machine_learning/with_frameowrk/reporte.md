@@ -67,7 +67,7 @@ Dado que se trata de un problema de clasificación binaria, las métricas de eva
 Este tipo de problema es crucial en el campo de la salud, ya que puede ayudar a identificar a las personas que corren un mayor riesgo de enfermedades cardíacas y, por lo tanto, permitir una intervención médica temprana y preventiva.
 
 ## Predicciones
-![Matriz de confusione sin Framework]('cf_wo_fw.png')
+![Matriz de confusion sin Framework]('cf_wo_fw.png')
 
 ## Evaluacion del modelo con base a las predicciones
 En este caso a diferencia del donde no usamos frameworks obtuvimos algunas metricas diferentes que en este caso en particular son peores, considerando que el modelo es el mismo y los datos son los mismos, la metrica de recall que es una de las mas importantes en este caso es mucho menor, lo que nos indica que el modelo no es tan bueno como el anterior para predecir verdaderos positivos como podmeos ver en la matriz de confusion. Esto es preocupante porque los verdaderos positivos se tratan de ataques al corazón.
